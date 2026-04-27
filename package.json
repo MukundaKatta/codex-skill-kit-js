@@ -1,0 +1,41 @@
+{
+  "name": "@mukundakatta/codex-skill-kit",
+  "version": "0.1.2",
+  "description": "Scaffold and validate Codex skills from the command line.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "bin": {
+    "csk": "src/cli.js",
+    "codex-skill-kit": "src/cli.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "pack:check": "npm pack --dry-run"
+  },
+  "keywords": [
+    "codex",
+    "openai",
+    "skills",
+    "cli",
+    "developer-tools"
+  ],
+  "author": "Mukunda Katta",
+  "license": "MIT",
+  "homepage": "https://github.com/MukundaKatta/codex-skill-kit-js#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MukundaKatta/codex-skill-kit-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MukundaKatta/codex-skill-kit-js/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
